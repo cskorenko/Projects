@@ -1,0 +1,99 @@
+/*Header */
+
+h1 {
+  color: MediumAquamarine;
+  font-size: 14px;
+  /*display: flex;
+  justify-content: space-around;*/
+  padding-left: 10px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+.navagation {
+  display: flex;
+  padding-right: 10px;
+}
+
+.logo-heading {
+  justify-content: flex-start;
+  display: flex;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  align-items: center;
+}
+
+.nav-link {
+  padding-right: 25px;
+  text-decoration: underline;
+}
+
+/*Main Content*/
+#main-content {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.column-large {
+  width: 630px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.column-medium {
+  width: 300px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.column-small {
+  width: 240px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-title {
+  border: 1px solid black;
+}
+
+.row-content {
+  border: 2px solid black;
+}
+
+#main-story {
+  background-image: url("file:///Users/christineskorenko/Documents/Projects/MyTimes/resources/images/img-story-main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 250px;
+
+}
+
+h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
