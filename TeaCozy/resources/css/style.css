@@ -1,4 +1,5 @@
 * {
+  /*margin: auto;*/
   background-color: black;
   font-family: Helvetica;
   opacity: 0.9;
@@ -38,7 +39,7 @@
 .mission {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /*line-height: 3em;*/
   height: 700px;
   background-image: url("file:///Users/christineskorenko/Documents/Projects/TeaCozy/resources/images/img-mission-background.jpg");
   background-position: center;
@@ -46,8 +47,7 @@
 }
 
 #our-mission {
-  background-color: black;
-  opacity: 1;
+  /*background-color: black;*/
   width: 1200px;
   text-align: center;
 }
@@ -59,8 +59,8 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  line-height: 4px;
-  padding-top: 50px;
+  /*line-height: 4px;*/
+  padding-top: 60px;
   overflow-y: auto;
 }
 
@@ -73,6 +73,7 @@
   text-align: center;
   width: 1000px;
   padding-top: 20px;
+  padding-bottom: 60px;
 }
 
 .tea-flavors {
@@ -99,6 +100,35 @@
   display: flex;
   flex-flow: row;
   width: 300px;
+  height: 300px;
   background-color: black;
   opacity: 1;
+}
+
+#downtown {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+#no-background {
+  background-color: transparent;
+}
+
+/*Footer */
+
+#footer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  align-content: center;
+  height: 200px;
+}
+
+#copy {
+  margin-left: 0;
+  padding-left: 20px;
+  align-self: flex-start;
 }
