@@ -1,9 +1,11 @@
 * {
-  /*margin: auto;*/
-  background-color: black;
   font-family: Helvetica;
-  opacity: 0.9;
   color: seashell;
+  opacity: 0.9;
+}
+
+body {
+    background-color: black;
 }
 
 /*Heading */
@@ -88,11 +90,11 @@
 /*Locations */
 
 .locations-section {
-  display: flex;
+  /*display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column;
-  height: 500px;
+  flex-flow: row;*/
+  min-height: 500px;
   width: 1200px;
   background-image: url("file:///Users/christineskorenko/Documents/Projects/TeaCozy/resources/images/img-locations-background.jpg");
   background-position: center;
@@ -101,24 +103,32 @@
 
 .location-box {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row;
+  align-content: center;
   justify-content: space-between;
+  align-items: center;
+  padding-left: 110px;
+  padding-right: 110px;
   opacity: 1;
 }
 
 .shops {
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  align-content: center;
+  background-color: black;
   width: 300px;
   height: 300px;
-  border: 2px yellow solid;
+  opacity: 1;
 }
 
-#no-background {
-  background-color: transparent;
+.center {
+  text-align: center;
+  padding-top: 40px;
 }
+
 
 /*Footer */
 
